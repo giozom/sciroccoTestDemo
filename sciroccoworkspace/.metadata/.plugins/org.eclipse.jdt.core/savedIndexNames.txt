@@ -1,0 +1,6 @@
+INDEX VERSION 1.126+/Users/giovanni/work/android-app/sciroccoworkspace/.metadata/.plugins/org.eclipse.jdt.core
+55120925.index
+1938874317.index
+2098677193.index
+3674630775.index
+3891359290.index

@@ -1,0 +1,283 @@
+!SESSION 2011-11-30 11:30:29.415 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_26
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/giovanni/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/giovanni/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2011-11-30 11:32:13.680
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2011-11-30 11:35:29.162
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2011-11-30 11:35:29.162
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.python.pydev.debug.setnext,Set Next Statement,
+		,
+		Category(org.python.pydev.ui.category.run,PyDev - Run,Python run category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.ui 4 4 2011-11-30 11:40:26.697
+!MESSAGE Invalid preference page path: XML Syntax
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2011-11-30 11:49:18.939
+!MESSAGE Error: null
+!STACK 0
+java.lang.NullPointerException
+	at com.android.sdklib.internal.repository.AddonPackage.create(AddonPackage.java:152)
+	at com.android.sdklib.internal.repository.LocalSdkParser.scanMissingAddons(LocalSdkParser.java:279)
+	at com.android.sdklib.internal.repository.LocalSdkParser.parseSdk(LocalSdkParser.java:142)
+	at com.android.sdkuilib.internal.repository.UpdaterData.getInstalledPackages(UpdaterData.java:377)
+	at com.android.sdkuilib.internal.repository.LocalSdkAdapter$TableContentProvider.getElements(LocalSdkAdapter.java:96)
+	at org.eclipse.jface.viewers.StructuredViewer.getRawChildren(StructuredViewer.java:1010)
+	at org.eclipse.jface.viewers.ColumnViewer.getRawChildren(ColumnViewer.java:703)
+	at org.eclipse.jface.viewers.AbstractTableViewer.getRawChildren(AbstractTableViewer.java:1087)
+	at org.eclipse.jface.viewers.StructuredViewer.getFilteredChildren(StructuredViewer.java:917)
+	at org.eclipse.jface.viewers.StructuredViewer.getSortedChildren(StructuredViewer.java:1067)
+	at org.eclipse.jface.viewers.AbstractTableViewer.internalRefreshAll(AbstractTableViewer.java:701)
+	at org.eclipse.jface.viewers.AbstractTableViewer.internalRefresh(AbstractTableViewer.java:649)
+	at org.eclipse.jface.viewers.AbstractTableViewer.internalRefresh(AbstractTableViewer.java:636)
+	at org.eclipse.jface.viewers.AbstractTableViewer$2.run(AbstractTableViewer.java:592)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1443)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1404)
+	at org.eclipse.jface.viewers.AbstractTableViewer.inputChanged(AbstractTableViewer.java:590)
+	at org.eclipse.jface.viewers.ContentViewer.setInput(ContentViewer.java:280)
+	at org.eclipse.jface.viewers.StructuredViewer.setInput(StructuredViewer.java:1690)
+	at com.android.sdkuilib.internal.repository.LocalPackagesPage.onSdkReload(LocalPackagesPage.java:293)
+	at com.android.sdkuilib.internal.repository.LocalPackagesPage.onSdkLoaded(LocalPackagesPage.java:286)
+	at com.android.sdkuilib.internal.repository.UpdaterData$6.run(UpdaterData.java:1041)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:180)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:150)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4610)
+	at com.android.sdkuilib.internal.repository.UpdaterData.broadcastOnSdkLoaded(UpdaterData.java:1037)
+	at com.android.sdkuilib.internal.repository.SdkUpdaterWindowImpl1.postCreateContent(SdkUpdaterWindowImpl1.java:313)
+	at com.android.sdkuilib.internal.repository.SdkUpdaterWindowImpl1.open(SdkUpdaterWindowImpl1.java:117)
+	at com.android.sdkuilib.repository.SdkUpdaterWindow.open(SdkUpdaterWindow.java:153)
+	at com.android.ide.eclipse.adt.internal.actions.SdkAvdManagerAction.run(SdkAvdManagerAction.java:118)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:251)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:229)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$6.handleEvent(ActionContributionItem.java:452)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4125)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1457)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1480)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1465)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1270)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3971)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3610)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2696)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2660)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2494)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:674)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:667)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2011-11-30 11:49:18.978
+!MESSAGE Error: null
+!STACK 0
+java.lang.NullPointerException
+	at com.android.sdklib.internal.repository.AddonPackage.create(AddonPackage.java:152)
+	at com.android.sdklib.internal.repository.LocalSdkParser.scanMissingAddons(LocalSdkParser.java:279)
+	at com.android.sdklib.internal.repository.LocalSdkParser.parseSdk(LocalSdkParser.java:142)
+	at com.android.sdkuilib.internal.repository.UpdaterData.getInstalledPackages(UpdaterData.java:377)
+	at com.android.sdkuilib.internal.repository.LocalSdkAdapter$TableContentProvider.getElements(LocalSdkAdapter.java:96)
+	at org.eclipse.jface.viewers.StructuredViewer.getRawChildren(StructuredViewer.java:1010)
+	at org.eclipse.jface.viewers.ColumnViewer.getRawChildren(ColumnViewer.java:703)
+	at org.eclipse.jface.viewers.AbstractTableViewer.getRawChildren(AbstractTableViewer.java:1087)
+	at org.eclipse.jface.viewers.StructuredViewer.getFilteredChildren(StructuredViewer.java:917)
+	at org.eclipse.jface.viewers.StructuredViewer.getSortedChildren(StructuredViewer.java:1067)
+	at org.eclipse.jface.viewers.AbstractTableViewer.internalRefreshAll(AbstractTableViewer.java:701)
+	at org.eclipse.jface.viewers.AbstractTableViewer.internalRefresh(AbstractTableViewer.java:649)
+	at org.eclipse.jface.viewers.AbstractTableViewer.internalRefresh(AbstractTableViewer.java:636)
+	at org.eclipse.jface.viewers.AbstractTableViewer$2.run(AbstractTableViewer.java:592)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1443)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1404)
+	at org.eclipse.jface.viewers.AbstractTableViewer.inputChanged(AbstractTableViewer.java:590)
+	at org.eclipse.jface.viewers.ContentViewer.setInput(ContentViewer.java:280)
+	at org.eclipse.jface.viewers.StructuredViewer.setInput(StructuredViewer.java:1690)
+	at com.android.sdkuilib.internal.repository.LocalPackagesPage.onSdkReload(LocalPackagesPage.java:293)
+	at com.android.sdkuilib.internal.repository.LocalPackagesPage.onSdkLoaded(LocalPackagesPage.java:286)
+	at com.android.sdkuilib.internal.repository.UpdaterData$6.run(UpdaterData.java:1041)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:180)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:150)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4610)
+	at com.android.sdkuilib.internal.repository.UpdaterData.broadcastOnSdkLoaded(UpdaterData.java:1037)
+	at com.android.sdkuilib.internal.repository.SdkUpdaterWindowImpl1.postCreateContent(SdkUpdaterWindowImpl1.java:313)
+	at com.android.sdkuilib.internal.repository.SdkUpdaterWindowImpl1.open(SdkUpdaterWindowImpl1.java:117)
+	at com.android.sdkuilib.repository.SdkUpdaterWindow.open(SdkUpdaterWindow.java:153)
+	at com.android.ide.eclipse.adt.internal.actions.SdkAvdManagerAction.run(SdkAvdManagerAction.java:118)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:251)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:229)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$6.handleEvent(ActionContributionItem.java:452)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4125)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1457)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1480)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1465)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1270)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3971)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3610)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2696)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2660)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2494)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:674)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:667)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2011-11-30 11:50:47.200
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at file:/Users/giovanni/Downloads/net.sf.eclipsecs_5.3.0.201012121300-updatesite-/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:82)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2011-11-30 11:50:47.201
+!MESSAGE No repository found at file:/Users/giovanni/Downloads/net.sf.eclipsecs_5.3.0.201012121300-updatesite-/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2011-11-30 11:51:39.441
+!MESSAGE No repository found at file:/Users/giovanni/Downloads/net.sf.eclipsecs_5.3.0.201012121300-updatesite-/.
+!SESSION 2011-11-30 11:53:52.489 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_26
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/giovanni/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/giovanni/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.jface 2 0 2011-11-30 11:54:13.615
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2011-11-30 11:54:13.615
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.python.pydev.debug.setnext,Set Next Statement,
+		,
+		Category(org.python.pydev.ui.category.run,PyDev - Run,Python run category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.core.net 1 0 2011-11-30 11:54:13.878
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 4 4 2011-11-30 11:55:48.608
+!MESSAGE Invalid preference page path: XML Syntax
+
+!ENTRY com.android.ide.eclipse.adt 0 0 2011-11-30 11:55:53.250
+!MESSAGE printErrorToConsole
+
+!ENTRY com.android.ide.eclipse.adt 0 0 2011-11-30 11:55:53.253
+!MESSAGE printErrorToConsole
+
+!ENTRY com.android.ide.eclipse.adt 0 0 2011-11-30 11:55:53.255
+!MESSAGE printErrorToConsole
+
+!ENTRY com.android.ide.eclipse.adt 0 0 2011-11-30 11:55:53.287
+!MESSAGE printErrorToConsole
+
+!ENTRY com.android.ide.eclipse.adt 0 0 2011-11-30 11:55:56.359
+!MESSAGE printErrorToConsole
+
+!ENTRY com.android.ide.eclipse.adt 0 0 2011-11-30 11:55:56.367
+!MESSAGE printErrorToConsole
+
+!ENTRY com.android.ide.eclipse.adt 0 0 2011-11-30 11:55:56.494
+!MESSAGE printErrorToConsole
+
+!ENTRY com.android.ide.eclipse.adt 0 0 2011-11-30 11:55:58.727
+!MESSAGE printErrorToConsole
+
+!ENTRY com.android.ide.eclipse.adt 0 0 2011-11-30 11:56:02.494
+!MESSAGE printErrorToConsole
+
+!ENTRY com.android.ide.eclipse.adt 0 0 2011-11-30 11:56:02.610
+!MESSAGE printErrorToConsole
+
+!ENTRY com.android.ide.eclipse.adt 0 0 2011-11-30 11:56:02.611
+!MESSAGE printErrorToConsole
+
+!ENTRY com.android.ide.eclipse.adt 0 0 2011-11-30 11:56:02.771
+!MESSAGE printErrorToConsole
+
+!ENTRY com.android.ide.eclipse.adt 0 0 2011-11-30 11:56:05.477
+!MESSAGE printErrorToConsole
+
+!ENTRY com.android.ide.eclipse.adt 0 0 2011-11-30 11:56:07.883
+!MESSAGE printErrorToConsole
+
+!ENTRY com.android.ide.eclipse.adt 0 0 2011-11-30 11:56:07.971
+!MESSAGE printErrorToConsole
+
+!ENTRY com.android.ide.eclipse.adt 0 0 2011-11-30 11:56:08.733
+!MESSAGE printErrorToConsole
+
+!ENTRY com.android.ide.eclipse.adt 0 0 2011-11-30 11:56:11.610
+!MESSAGE printErrorToConsole
+
+!ENTRY com.android.ide.eclipse.adt 0 0 2011-11-30 11:56:11.612
+!MESSAGE printErrorToConsole
+
+!ENTRY com.android.ide.eclipse.adt 0 0 2011-11-30 11:56:13.880
+!MESSAGE printErrorToConsole
+
+!ENTRY com.android.ide.eclipse.adt 0 0 2011-11-30 11:56:14.261
+!MESSAGE printErrorToConsole
